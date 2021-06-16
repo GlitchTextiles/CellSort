@@ -28,7 +28,7 @@ void settings() {
 
 void setup() {
   GUI = new ControlFrame(this, 900, 325); //initializes the GUI window
-  surface.setLocation(0, 0);
+  surface.setLocation(900, 0);
   play = false;
   record = false;
   wrap = false;

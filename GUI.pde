@@ -53,7 +53,7 @@ public class ControlFrame extends PApplet {
   }
 
   public void setup() {
-    surface.setLocation(0, 400);
+    surface.setLocation(0, 0);
     cp5 = new ControlP5(this);
 
     //toggles to enable/disable checking of specific neighbor cells.

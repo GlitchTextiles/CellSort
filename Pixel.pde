@@ -1,4 +1,4 @@
-private class Pixel {
+public class Pixel {
   int x;
   int y;
   color c;
@@ -74,9 +74,9 @@ private class Pixel {
   }
   
   public Pixel set(Pixel _px){
-    this.x = _px.x;
-    this.y = _px.y;
-    this.c = _px.c;
+    this.x = _px.getX();
+    this.y = _px.getY();
+    this.c = _px.getColor();
     return this;
   }
   
